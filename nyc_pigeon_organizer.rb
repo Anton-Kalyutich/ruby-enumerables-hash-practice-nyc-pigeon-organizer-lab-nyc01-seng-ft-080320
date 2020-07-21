@@ -23,6 +23,10 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if the_hash.keys.include?(name)
           the_hash[name][attribute] << property.to_s
+        end
+      end
+    end
+  end
   
   
   the_hash

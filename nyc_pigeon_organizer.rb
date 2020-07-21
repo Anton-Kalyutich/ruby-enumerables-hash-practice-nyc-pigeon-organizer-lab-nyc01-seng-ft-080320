@@ -9,6 +9,9 @@ def nyc_pigeon_organizer(data)
           the_hash[name] = {}
           if !the_hash[name].keys.include?(attribute)
         
+  
+  
+  
   end
   
   the_hash

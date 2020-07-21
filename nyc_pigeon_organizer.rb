@@ -1,7 +1,5 @@
 def nyc_pigeon_organizer(data)
   the_hash = {}
-  pigeon_names = []
-  pigeon_attributes = []
   
   data.each do |attribute, hash|
     pigeon_attributes << attribute

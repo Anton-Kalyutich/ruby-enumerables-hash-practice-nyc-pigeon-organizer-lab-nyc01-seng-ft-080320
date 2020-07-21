@@ -18,7 +18,9 @@ def nyc_pigeon_organizer(data)
     end
   end
     
-  
+  data.each do |attribute, hash|
+    hash.each do |property, names|
+      
   
   
   the_hash

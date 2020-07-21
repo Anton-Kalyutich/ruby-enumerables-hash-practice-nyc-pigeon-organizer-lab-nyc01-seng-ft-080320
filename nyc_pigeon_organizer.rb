@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, hash|
     hash.each do |property, names|
       names.each do |name|
-        
+        if 
   
   
   the_hash

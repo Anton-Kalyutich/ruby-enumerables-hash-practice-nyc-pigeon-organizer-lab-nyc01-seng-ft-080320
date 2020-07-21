@@ -5,7 +5,8 @@ def nyc_pigeon_organizer(data)
     
     hash.each do |property, names|
       names.each do |name|
-        if the_hash
+        if !the_hash.keys.include?(name)
+          
     end
   end
   

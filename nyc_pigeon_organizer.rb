@@ -1,3 +1,25 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  the_hash = {}
+  pigeon_names = []
+  pigeon_attributes = []
+  
+  data.each do |attribute, hash|
+    pigeon_attributes << attribute
+    hash.each_value do |names|
+      pigeon_names << names
+    end
+  end
+  
+  pigeon_names.flatten!.uniq!
+  pigeon_names.each do |name|
+    pigeon_attributes.each do |attribute|
+      the_hash[name] = {}
+      the_hash[name][attribute] = []
+    end
+  end
+    
+  
+  
+  
+  the_hash
 end

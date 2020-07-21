@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
         if !the_hash.keys.include?(name)
           the_hash[name] = {}
           if !the_hash[name].keys.include?(attribute)
+            
+            
         
     end
   

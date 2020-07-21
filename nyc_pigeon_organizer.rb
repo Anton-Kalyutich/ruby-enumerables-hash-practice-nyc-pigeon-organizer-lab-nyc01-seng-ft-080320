@@ -10,6 +10,8 @@ def nyc_pigeon_organizer(data)
           if !the_hash[name].keys.include?(attribute)
             the_hash[name][attribute] = []
           the_hash[name][attribute] << property.to_s
+        else
+          
             
             
         

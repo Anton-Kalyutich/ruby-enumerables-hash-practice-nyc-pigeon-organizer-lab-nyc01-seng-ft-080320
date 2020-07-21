@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !the_hash.keys.include?(name)
           the_hash[name] = {}
+          
     end
   end
   

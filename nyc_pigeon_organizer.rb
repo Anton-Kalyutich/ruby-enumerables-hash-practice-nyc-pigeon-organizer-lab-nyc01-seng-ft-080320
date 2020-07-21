@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !the_hash.keys.include?(name)
           the_hash[name] = {}
-          if !the_hash[name].keys.include?(attribute)
+        if !the_hash[name].keys.include?(attribute)
             the_hash[name][attribute] = []
           the_hash[name][attribute] << property.to_s
         else
